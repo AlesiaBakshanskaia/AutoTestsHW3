@@ -4,39 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89410280-6d17-4c8f-a3f5-1e242e502708" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/location/AdministrativeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/location/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/location/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/DailyForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Headline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Maximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Night.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/AccuweatherAbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsFiveDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_demo.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_home.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/accuweather_seminar.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/demo_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/home_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/seminar_spoonacular.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/spoonacular.properties" afterDir="false" />
+    <list default="true" id="89410280-6d17-4c8f-a3f5-1e242e502708" name="Changes" comment="HW3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/weather/ErrorUnauthorized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/AccuweatherWireMockWithRestAssuredAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/AccuweatherWireMockWithRestAssuredTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/velislava/VelislavaAbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/velislava/VelislavaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,91 +47,94 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/AutoTestsHW3"
+    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/Vvedenie-v-automatizatsiy-testirovania",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\main\resources" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\test\java" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\test" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForecastsFiveDaysTest.testResponseDateLocation">
-    <configuration name="ForecastsFiveDaysTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AccuweatherWireMockWithRestAssuredTest">
+    <configuration name="AccuweatherWireMockWithRestAssuredTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestsHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accuweather.*" />
+          <option name="PATTERN" value="accuweatherWithWireMock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accuweather" />
-      <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
+      <option name="PACKAGE_NAME" value="accuweatherWithWireMock" />
+      <option name="MAIN_CLASS_NAME" value="accuweatherWithWireMock.AccuweatherWireMockWithRestAssuredTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastsFiveDaysTest.testGetResponseForecasts10Days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccuweatherWireMockWithRestAssuredTest.testForecast10DaysWithStatus401" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestsHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accuweather.*" />
+          <option name="PATTERN" value="accuweatherWithWireMock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accuweather" />
-      <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
-      <option name="METHOD_NAME" value="testGetResponseForecasts10Days" />
+      <option name="PACKAGE_NAME" value="accuweatherWithWireMock" />
+      <option name="MAIN_CLASS_NAME" value="accuweatherWithWireMock.AccuweatherWireMockWithRestAssuredTest" />
+      <option name="METHOD_NAME" value="testForecast10DaysWithStatus401" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastsFiveDaysTest.testGetResponseForecasts15Days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VelislavaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestsHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accuweather.*" />
+          <option name="PATTERN" value="velislava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accuweather" />
-      <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
-      <option name="METHOD_NAME" value="testGetResponseForecasts15Days" />
+      <option name="PACKAGE_NAME" value="velislava" />
+      <option name="MAIN_CLASS_NAME" value="velislava.VelislavaTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VelislavaTest.testVelislavaGet401Response" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutoTestsHW3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="velislava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="velislava" />
+      <option name="MAIN_CLASS_NAME" value="velislava.VelislavaTest" />
+      <option name="METHOD_NAME" value="testVelislavaGet401Response" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastsFiveDaysTest.testGetResponseForecasts1Days" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VelislavaTest.testVelislavaGet401ResponsePost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutoTestsHW3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="accuweather.*" />
+          <option name="PATTERN" value="velislava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="accuweather" />
-      <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
-      <option name="METHOD_NAME" value="testGetResponseForecasts1Days" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForecastsFiveDaysTest.testResponseDateLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutoTestsHW3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="accuweather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="accuweather" />
-      <option name="MAIN_CLASS_NAME" value="accuweather.ForecastsFiveDaysTest" />
-      <option name="METHOD_NAME" value="testResponseDateLocation" />
+      <option name="PACKAGE_NAME" value="velislava" />
+      <option name="MAIN_CLASS_NAME" value="velislava.VelislavaTest" />
+      <option name="METHOD_NAME" value="testVelislavaGet401ResponsePost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -151,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForecastsFiveDaysTest.testResponseDateLocation" />
-        <item itemvalue="JUnit.ForecastsFiveDaysTest.testGetResponseForecasts1Days" />
-        <item itemvalue="JUnit.ForecastsFiveDaysTest.testGetResponseForecasts10Days" />
-        <item itemvalue="JUnit.ForecastsFiveDaysTest.testGetResponseForecasts15Days" />
-        <item itemvalue="JUnit.ForecastsFiveDaysTest" />
+        <item itemvalue="JUnit.AccuweatherWireMockWithRestAssuredTest" />
+        <item itemvalue="JUnit.VelislavaTest" />
+        <item itemvalue="JUnit.VelislavaTest.testVelislavaGet401ResponsePost" />
+        <item itemvalue="JUnit.VelislavaTest.testVelislavaGet401Response" />
+        <item itemvalue="JUnit.AccuweatherWireMockWithRestAssuredTest.testForecast10DaysWithStatus401" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +159,18 @@
       <option name="presentableId" value="Default" />
       <updated>1702401695282</updated>
     </task>
+    <task id="LOCAL-00001" summary="HW3">
+      <created>1702497612882</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702497612882</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW3" />
   </component>
 </project>
