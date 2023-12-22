@@ -1,6 +1,10 @@
 package velislava;
 
-import accuweatherWithWireMock.AccuweatherWireMockWithRestAssuredTest;
+
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
@@ -8,12 +12,13 @@ import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
-import java.io.UnsupportedEncodingException;
+
 import java.net.URI;
 import java.net.URISyntaxException;
 
@@ -26,6 +31,10 @@ public class VelislavaTest extends VelislavaAbstractTest {
             = LoggerFactory.getLogger(VelislavaAbstractTest.class);
 
     @Test
+    @DisplayName("Проверка при ответе 401 с мокированием метод GET")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Velislava")
     void testVelislavaGet401Response() throws URISyntaxException, IOException {
         logger.info("Тест VelislavaGet401Response запущен");
 
@@ -62,6 +71,10 @@ public class VelislavaTest extends VelislavaAbstractTest {
     }
 
     @Test
+    @DisplayName("Проверка при ответе 401 с мокированием етод POST")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Velislava")
     void testVelislavaGet401ResponsePost() throws URISyntaxException, IOException {
         logger.info("Тест testVelislavaGet401ResponsePost запущен");
 

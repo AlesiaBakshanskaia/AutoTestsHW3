@@ -2,8 +2,14 @@ package accuweatherWithWireMock;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.response.Response;
+import jdk.jfr.Description;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,6 +26,11 @@ public class AccuweatherWireMockWithRestAssuredTest extends AccuweatherWireMockW
             = LoggerFactory.getLogger(AccuweatherWireMockWithRestAssuredTest.class);
 
     @Test
+    @DisplayName("Проверка ответа на запрос прогноза на 1 день с мокированием")
+    @Description("Метод GET, авторизация пройдена")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testGetResponseForecasts1Days() {
         logger.info("Тест GetResponseForecasts1Days запущен");
         logger.debug("Формирование мока GET-запроса \"/forecasts/v1/daily/1day\"");
@@ -28,7 +39,7 @@ public class AccuweatherWireMockWithRestAssuredTest extends AccuweatherWireMockW
                 .withHeader("Cache-Control", equalTo("public"))
                 .willReturn(aResponse().withStatus(200)
                         .withHeader("Cache-Control", "public")
-                        .withBody("Сообщение")));
+                        .withBody("Massage")));
 
         logger.debug("Формирование GET-запроса \"/forecasts/v1/daily/1day\"");
         Response response = given()
@@ -42,11 +53,16 @@ public class AccuweatherWireMockWithRestAssuredTest extends AccuweatherWireMockW
 
         Assertions.assertEquals(200, statusCode);
         Assertions.assertEquals("public", header);
-        Assertions.assertEquals("Сообщение", body);
+        Assertions.assertEquals("Massage", body);
         logger.info("Тест GetResponseForecasts1Days завершен");
     }
 
     @Test
+    @DisplayName("Проверка тела ответа на запрос прогноза на 1 день с мокированием")
+    @Description("Метод GET, авторизация пройдена")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testBodyForecast1Days() throws JsonProcessingException {
         logger.info("Тест testBodyForecast1Days запущен");
         logger.debug("Формирование мока GET-запроса \"/forecasts/v1/daily/1day\"");
@@ -114,6 +130,11 @@ public class AccuweatherWireMockWithRestAssuredTest extends AccuweatherWireMockW
     }
 
     @Test
+    @DisplayName("Проверка тела ответа на запрос прогноза на 10 дней с мокированием")
+    @Description("Метод GET, авторизация не пройдена")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testForecast10DaysWithStatus401() throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         logger.info("Тест Forecast10DaysWithStatus401 запущен");

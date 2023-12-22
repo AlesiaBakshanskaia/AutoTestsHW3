@@ -1,13 +1,19 @@
 package accuweather;
 
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Owner;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import io.restassured.http.Method;
 
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
+import jdk.jfr.Description;
 import org.junit.jupiter.api.Assertions;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import weather.Weather;
 
@@ -20,6 +26,11 @@ public class ForecastsAnaLocationTest extends AccuweatherAbstractTest {
 
 
     @Test
+    @DisplayName("Проверка ответа на запрос прогноза на 1 день")
+    @Description("Метод GET, авторизация пройдена")
+    @Severity(SeverityLevel.CRITICAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testGetResponseForecasts1Days() {
 //        Weather weather = given().queryParam("apikey", getApiKey()).pathParam("locationKey", 50)
 //                .when().get(getBaseUrl() + "/forecasts/v1/daily/1day/{locationKey}")
@@ -38,6 +49,11 @@ public class ForecastsAnaLocationTest extends AccuweatherAbstractTest {
                 () -> Assertions.assertEquals(200, statusCode));
     }
     @Test
+    @DisplayName("Проверка ответа на запрос прогноза на 10 дней")
+    @Description("Метод GET, авторизация не пройдена")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testGetResponseForecasts10Days() {
         String code = given().queryParam("apikey", getApiKey()).pathParam("locationKey", 50)
                 .when()
@@ -57,6 +73,11 @@ public class ForecastsAnaLocationTest extends AccuweatherAbstractTest {
                 () -> Assertions.assertEquals("Api Authorization failed", message));
     }
     @Test
+    @DisplayName("Проверка ответа на запрос прогноза на 15 дней")
+    @Description("Метод GET, авторизация не пройдена")
+    @Severity(SeverityLevel.NORMAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testGetResponseForecasts15Days() {
 
 //        String code = given().queryParam("apikey", getApiKey()).pathParam("locationKey", 50)
@@ -89,6 +110,11 @@ public class ForecastsAnaLocationTest extends AccuweatherAbstractTest {
 
 
     @Test
+    @DisplayName("Проверка ответа на запрос автозаполнения поиска")
+    @Description("Метод GET, авторизация пройдена")
+    @Severity(SeverityLevel.CRITICAL)
+    @Owner("Бакшанская Алеся")
+    @Epic(value = "Accuweather")
     void testResponseDateAutocompleteSearch() {
         //вариант через assertThat() (но после первого бага проверка прекращается)
         given().queryParam("apikey", getApiKey()).queryParam("q", "Moscow")
