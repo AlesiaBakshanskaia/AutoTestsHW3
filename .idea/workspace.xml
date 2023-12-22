@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89410280-6d17-4c8f-a3f5-1e242e502708" name="Changes" comment="HW5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsAnaLocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/accuweather/ForecastsAnaLocationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/AccuweatherWireMockWithRestAssuredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/accuweatherWithWireMock/AccuweatherWireMockWithRestAssuredTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/velislava/VelislavaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/velislava/VelislavaTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="89410280-6d17-4c8f-a3f5-1e242e502708" name="Changes" comment="HW6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +38,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/AutoTestsHW3",
+    "last_opened_file_path": "C:/Users/Владислав/IdeaProjects/AutoTestsHW3/.github/.workflows",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -52,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\.github\.workflows" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\main\resources" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\test\java" />
       <recent name="C:\Users\Владислав\IdeaProjects\AutoTestsHW3\src\test" />
@@ -170,12 +165,20 @@
       <option name="project" value="LOCAL" />
       <updated>1703110262209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="HW6">
+      <created>1703274334216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703274334216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HW3" />
     <MESSAGE value="HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5" />
+    <MESSAGE value="HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
   </component>
 </project>
